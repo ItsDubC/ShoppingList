@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingListApp.Entities", "ShoppingList\ShoppingListApp.Entities.csproj", "{803713F4-7570-4F91-B503-4FF0EC1D545B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingListApp.DataAccess", "ShoppingList.DataAccess\ShoppingListApp.DataAccess.csproj", "{9BB98E05-2234-4BD3-B5B3-93EE0D371848}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{803713F4-7570-4F91-B503-4FF0EC1D545B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803713F4-7570-4F91-B503-4FF0EC1D545B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803713F4-7570-4F91-B503-4FF0EC1D545B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803713F4-7570-4F91-B503-4FF0EC1D545B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB98E05-2234-4BD3-B5B3-93EE0D371848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB98E05-2234-4BD3-B5B3-93EE0D371848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB98E05-2234-4BD3-B5B3-93EE0D371848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB98E05-2234-4BD3-B5B3-93EE0D371848}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
