@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IEntity.cs" />
+    <Compile Include="ComplexTypes\ListEntryDetail.cs" />
     <Compile Include="Concrete\ListEntry.cs" />
     <Compile Include="Concrete\ShoppingList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

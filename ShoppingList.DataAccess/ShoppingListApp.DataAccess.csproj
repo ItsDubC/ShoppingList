@@ -49,9 +49,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IEntitityRepositoryBase.cs" />
+    <Compile Include="Abstract\IListEntryDal.cs" />
+    <Compile Include="Abstract\IShoppingListDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfRepositoryBase.cs" />
     <Compile Include="Concrete\EntityFramework\ListEntryDal.cs" />
-    <Compile Include="Concrete\EntityFramework\ShoppingListContext.cs" />
+    <Compile Include="Concrete\EntityFramework\Contexts\ShoppingListContext.cs" />
     <Compile Include="Concrete\EntityFramework\ShoppingListDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -3,7 +3,7 @@ using System;
 using System.Data.Entity;
 using System.Linq;
 
-namespace ShoppingListApp.DataAccess.Concrete.EntityFramework
+namespace ShoppingListApp.DataAccess.Concrete.EntityFramework.Contexts
 {
     public class ShoppingListContext : DbContext
     {
